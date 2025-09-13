@@ -1,104 +1,290 @@
+## Ex.1 Cloud Account Setup and Services Overview in Microsoft Azure
 
-# EX NO 1: Cloud-account-set-up-and-services
-```
-Name : Revanth.P
-Reg.No : 212223040143
-```
+## Name: REVANTH.P
+## Register number: 212223040143
+
 
 ## Aim:
+To create a cloud account in Microsoft Azure and to explore its services such as Compute, IoT, and Security.
 
-To create an cloud account in AWS and to explore all of its services.
+## Procedure:
+Step 1: Go to the Azure Website
 
-## Procedure
+  •	Visit https://azure.microsoft.com
 
-## Step 1: Go to the AWS Website
-
-- Visit: [https://aws.amazon.com](https://aws.amazon.com)
-- Click **“Create an AWS Account”** in the top right corner.
-
----
-
-## Step 2: Enter Account Information
-
-- **Email address:** Use a valid, accessible email.
-- **Password:** Create a strong and secure password.
-- **AWS account name:** Choose a name (your name, team name, or company name).
-
----
-
-## Step 3: Choose Account Type
-
-- **Personal** or **Professional** – Choose based on your use case.
-- Fill in your **name**, **address**, and **phone number**.
-
----
-
-## Step 4: Enter Payment Information
-
-- Provide your **credit or debit card** details.
-
-> Note: You **won’t be charged** immediately. AWS offers a **Free Tier**, but card info is required for verification.
-
----
-
-## Step 5: Verify Your Identity
-
-- Enter your **phone number**.
-- AWS will send a verification code via **call or SMS**.
-- Enter the **code** to confirm your identity.
-
----
-
-## 🛠️ Step 6: Choose a Support Plan
-
-Pick one of the following support plans:
-
-- **Basic Support** (Free) 
-- Developer Support
-- Business Support
-- Enterprise Support
-
----
-
-## Step 7: Complete the Sign-Up
-
-- Review all entered details.
-- Click **“Sign Up”**.
-- You’ll get a **confirmation email** once your account is activated (usually within a few minutes).
-
----
-
-## Step 8: Sign In to the AWS Console
-
-- Go to: [https://console.aws.amazon.com](https://console.aws.amazon.com)
-- Log in using your email and password.
-- Start exploring AWS services!
+  •	Click on “Start free” or “Free account” in the top right corner.
 
 
-## Create a user with administrative access
-After you sign up for an AWS account, secure your AWS account root user, enable AWS IAM Identity Center, and create an administrative user so that you don't use the root user for everyday tasks.
+Step 2: Sign Up with Microsoft Account
 
-## Secure your AWS account root user
-Sign in to the AWS Management Console (https://console.aws.amazon.com) as the account owner by choosing Root user and entering your AWS account email address. On the next page, enter your password. Turn on multi-factor authentication (MFA) for your root user.
+  •	If you already have a Microsoft account (Outlook/Hotmail), sign in.
 
-## Create user with administrative access
-Enable IAM Identity Center. In IAM Identity Center, grant administrative access to a user.
+  •	Otherwise, create a new Microsoft account using your email.
 
-## Sign in as the user with administrative access
-To sign in with your IAM Identity Center user, use the sign-in URL that was sent to your email address when you created the IAM Identity Center user.
 
-## Services Overview:
-• Explore all the available services in AWS platform.
+Step 3: Enter Account Information
 
-## Output:
+  •	Provide your basic details such as name, country/region, phone number, and verification details.
 
-![444984065-cc86a57b-dff6-435c-8b1a-c7362426dd5b](https://github.com/user-attachments/assets/757fe975-c878-4455-968c-03e9ee47d241)
 
-![444984094-b32d9c6e-e41b-4419-bb5f-a4845ee4132c](https://github.com/user-attachments/assets/7f89cbf3-0cce-43de-8044-d450b337af99)
+Step 4: Identity Verification
+
+  •	Enter your mobile number and verify using OTP (SMS or call).
+
+
+Step 5: Select Support Plan
+
+  •	Choose the Basic Support Plan (Free) for beginners.
+
+
+Step 6: Complete Sign-Up
+
+  •	Review details and click Sign Up.
+
+  •	You’ll receive a confirmation email and your Azure account will be activated.
+
+
+Step 7: Sign In to Azure Portal
+
+  •	Go to https://portal.azure.com
+
+  •	Sign in with your Microsoft account.
+
+  •	This is the main dashboard where you can explore all Azure services.
+
+
+## Create a User with Administrative Access (Azure Active Directory):
+
+**Secure your Azure account root user**
+
+  •	Sign in to the Azure Portal as the account owner.
+
+  •	Enable Multi-Factor Authentication (MFA) for your account.
+
+
+**Create a new administrative user**
+
+  •	Go to Azure Active Directory (AAD) → Users → New User.
+
+  •	Assign a username and set a temporary password.
+
+  •	Under Roles, assign Global Administrator or Owner role.
+
+
+**Sign in as the administrative user**
+
+  •	Use the newly created credentials to sign in.
+
+  •	Change the password on first login.
+
+  •	Now use this admin account for everyday tasks (instead of root).
+
+
+**Services Overview in Azure:**
+
+Azure provides 200+ cloud services. In this experiment, we focus on the following key categories:
+
+**1.	Compute Services**
+   
+**a. Azure Virtual Machines (VMs):**
+Azure Virtual Machines provide scalable, on-demand cloud computing resources. They allow users to run Windows or Linux workloads in the cloud without buying physical hardware.
+
+**Features:**
+
+  o	Wide choice of VM sizes and operating systems.
+
+  o	Supports hybrid cloud with on-premises integration.
+
+  o	Customizable CPU, memory, and storage options.
+
+**Advantages:**
+
+  o	Pay-as-you-go pricing lowers costs.
+
+  o	Highly scalable, suitable for testing and enterprise workloads.
+
+  o	Integrated monitoring, backup, and security.
+
+**b. Azure App Services:**
+
+App Services is a fully managed platform for building and hosting web apps, REST APIs, and mobile apps.
+
+**Features:**
+
+  •	Multi-language support (C#, Java, Python, Node.js, PHP).
+
+  •	Built-in DevOps support with GitHub and Azure DevOps.
+
+  •	Auto-scaling and high availability.
+
+**Advantages:**
+
+  •	Reduces infrastructure management.
+
+  •	Faster time to market for developers.
+
+  •	Integrated security and compliance.
+  
+
+**c. Azure Functions:**
+
+Functions is a serverless compute service that executes event-driven code.
+
+**Features:**
+
+  •	Trigger-based execution (HTTP, Blob, Queue, Event Hub).
+
+  •	Auto-scaling to meet demand.
+
+  •	Integrates with multiple Azure services.
+
+**Advantages:**
+
+  •	Cost-efficient (pay only for execution time).
+
+  •	Ideal for real-time data and IoT workflows.
+
+  •	Simplifies automation tasks.
+
+**2. IoT Services**
+   
+**a. Azure IoT Hub:** 
+
+IoT Hub enables secure communication between IoT devices and cloud applications.
+
+**Features:**
+
+  •	Bi-directional communication (device-to-cloud and cloud-to-device).
+
+  •	Device identity and authentication management.
+
+  •	Large-scale telemetry ingestion.
+
+**Advantages:**
+
+  •	Reliable device connectivity.
+
+  •	Secure communication channels.
+
+  •	Seamless integration with analytics and AI services.
+  
+
+**b. Azure IoT Central:**
+
+IoT Central is a SaaS platform for rapid IoT solution deployment.
+
+**Features:**
+
+  •	Pre-built industry templates (healthcare, retail, manufacturing).
+
+  •	Centralized dashboards for device monitoring.
+
+  •	Minimal coding required.
+
+**Advantages:**
+
+  •	Simplifies IoT app development.
+
+  •	Reduces time-to-market.
+
+  •	Provides scalability and flexibility.
+
+
+**c. Azure Digital Twins: Model real-world environments digitally.**
+
+Digital Twins models real-world physical systems digitally for monitoring and simulation.
+
+**Features:**
+
+  •	Create digital replicas of assets, buildings, or cities.
+
+  •	Connect IoT data for real-time visualization.
+
+  •	Enables event-driven workflows.
+
+**Advantages:**
+
+  •	Enhances decision-making.
+
+  •	Enables predictive maintenance.
+
+  •	Optimizes resource utilization.
+
+
+
+**3. Security Services**
+   
+**a. Azure Blob Storage
+**
+Blob Storage is optimized for storing massive amounts of unstructured data like images, videos, and backups.
+
+**Features:**
+
+  •	Hot, Cool, and Archive tiers for cost optimization.
+
+  •	Secure data access with Shared Access Signatures.
+
+  •	Scales to petabytes of data.
+
+**Advantages:**
+
+  •	Cost-effective cloud storage.
+
+  •	Highly available and durable.
+
+  •	Easy integration with analytics and ML services.
+
+**b. Azure Disk Storage**
+
+Disk Storage provides persistent, high-performance storage for VMs and applications.
+
+**Features:**
+
+  •	Premium SSDs, Standard SSDs, and HDD options.
+
+  •	Snapshot and backup support.
+
+  •	High IOPS and low latency.
+
+**Advantages:**
+
+  •	Reliable data storage for mission-critical apps.
+
+  •	Customizable performance tiers.
+
+  •	Strong durability and availability.
+
+**c. Azure Files**
+
+Azure Files delivers fully managed, cloud-based file shares accessible via SMB and NFS protocols.
+
+**Features:**
+
+  •	Shared file system accessible across platforms.
+
+  •	Supports hybrid use with Azure File Sync.
+
+  •	Built-in redundancy and backup.
+
+
+**Advantages:**
+
+  •	Simplifies file sharing across teams.
+
+  •	Replaces on-prem file servers easily.
+
+  •	Secure and scalable collaboration.
+
+## OUTPUT:
+
+<img width="1919" height="977" alt="Screenshot 2025-09-13 160751" src="https://github.com/user-attachments/assets/d9ba0504-188c-4210-a589-e56ce67c2974" />
+
+<img width="1918" height="926" alt="Screenshot 2025-09-13 161113" src="https://github.com/user-attachments/assets/75e52f53-3c16-4714-b346-98f118284c83" />
+
+
 
 ## Result:
-
-Thus an account was created in AWS platform and all the services were explored.
+Thus, a cloud account was successfully created in Microsoft Azure, and various services such as  Compute, IoT, and Storage were explored.
 
 
 
